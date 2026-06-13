@@ -27,7 +27,8 @@ os.environ["LANGCHAIN_PROJECT"] = "zyro-rag-challenge"
 
 @st.cache_resource
 def build_pipeline():
-    loader = PyPDFDirectoryLoader("data") 
+    # Changed from "data" to "." so it finds the PDFs in the main folder of your repository
+    loader = PyPDFDirectoryLoader(".") 
     documents = loader.load()
     
     text_splitter = RecursiveCharacterTextSplitter(chunk_size=1000, chunk_overlap=200)
@@ -58,7 +59,7 @@ try:
     with st.spinner("Loading HR Policies..."):
         rag_chain = build_pipeline()
 except Exception as e:
-    st.error(f"Please ensure your PDFs are in a 'data' folder! Error: {e}")
+    st.error(f"Error loading PDFs: {e}")
     st.stop()
 
 if prompt := st.chat_input("Ask a question about Zyro Dynamics HR policies..."):
