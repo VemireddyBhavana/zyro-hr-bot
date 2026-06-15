@@ -157,24 +157,24 @@
       "Requirement already satisfied: pygments<3.0.0,>=2.13.0 in /usr/local/lib/python3.12/dist-packages (from rich>=12.3.0->typer->huggingface-hub<2.0.0,>=0.33.4->langchain-huggingface) (2.20.0)\r\n",
       "Requirement already satisfied: mdurl~=0.1 in /usr/local/lib/python3.12/dist-packages (from markdown-it-py>=2.2.0->rich>=12.3.0->typer->huggingface-hub<2.0.0,>=0.33.4->langchain-huggingface) (0.1.2)\r\n",
       "Downloading langchain_community-0.4.2-py3-none-any.whl (2.4 MB)\r\n",
-      "\u001b[2K   \u001b[90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\u001b[0m \u001b[32m2.4/2.4 MB\u001b[0m \u001b[31m42.6 MB/s\u001b[0m eta \u001b[36m0:00:00\u001b[0m\r\n",
+      "\u001b[2K   \u001b[90m\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u001b[0m \u001b[32m2.4/2.4 MB\u001b[0m \u001b[31m42.6 MB/s\u001b[0m eta \u001b[36m0:00:00\u001b[0m\r\n",
       "\u001b[?25hDownloading langchain_huggingface-1.2.2-py3-none-any.whl (31 kB)\r\n",
       "Downloading langchain_groq-1.1.3-py3-none-any.whl (20 kB)\r\n",
       "Downloading faiss_cpu-1.14.3-cp310-abi3-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl (18.5 MB)\r\n",
-      "\u001b[2K   \u001b[90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\u001b[0m \u001b[32m18.5/18.5 MB\u001b[0m \u001b[31m68.6 MB/s\u001b[0m eta \u001b[36m0:00:00\u001b[0m\r\n",
+      "\u001b[2K   \u001b[90m\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u001b[0m \u001b[32m18.5/18.5 MB\u001b[0m \u001b[31m68.6 MB/s\u001b[0m eta \u001b[36m0:00:00\u001b[0m\r\n",
       "\u001b[?25hDownloading streamlit-1.58.0-py3-none-any.whl (9.2 MB)\r\n",
-      "\u001b[2K   \u001b[90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\u001b[0m \u001b[32m9.2/9.2 MB\u001b[0m \u001b[31m83.9 MB/s\u001b[0m eta \u001b[36m0:00:00\u001b[0m\r\n",
+      "\u001b[2K   \u001b[90m\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u001b[0m \u001b[32m9.2/9.2 MB\u001b[0m \u001b[31m83.9 MB/s\u001b[0m eta \u001b[36m0:00:00\u001b[0m\r\n",
       "\u001b[?25hDownloading langchain_text_splitters-1.1.2-py3-none-any.whl (35 kB)\r\n",
       "Downloading groq-0.37.1-py3-none-any.whl (137 kB)\r\n",
-      "\u001b[2K   \u001b[90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\u001b[0m \u001b[32m137.5/137.5 kB\u001b[0m \u001b[31m5.8 MB/s\u001b[0m eta \u001b[36m0:00:00\u001b[0m\r\n",
+      "\u001b[2K   \u001b[90m\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u001b[0m \u001b[32m137.5/137.5 kB\u001b[0m \u001b[31m5.8 MB/s\u001b[0m eta \u001b[36m0:00:00\u001b[0m\r\n",
       "\u001b[?25hDownloading langchain_classic-1.0.8-py3-none-any.whl (1.0 MB)\r\n",
-      "\u001b[2K   \u001b[90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\u001b[0m \u001b[32m1.0/1.0 MB\u001b[0m \u001b[31m37.2 MB/s\u001b[0m eta \u001b[36m0:00:00\u001b[0m\r\n",
+      "\u001b[2K   \u001b[90m\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u001b[0m \u001b[32m1.0/1.0 MB\u001b[0m \u001b[31m37.2 MB/s\u001b[0m eta \u001b[36m0:00:00\u001b[0m\r\n",
       "\u001b[?25hDownloading langchain_core-1.4.7-py3-none-any.whl (554 kB)\r\n",
-      "\u001b[2K   \u001b[90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\u001b[0m \u001b[32m554.9/554.9 kB\u001b[0m \u001b[31m22.6 MB/s\u001b[0m eta \u001b[36m0:00:00\u001b[0m\r\n",
+      "\u001b[2K   \u001b[90m\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u001b[0m \u001b[32m554.9/554.9 kB\u001b[0m \u001b[31m22.6 MB/s\u001b[0m eta \u001b[36m0:00:00\u001b[0m\r\n",
       "\u001b[?25hDownloading pydeck-0.9.2-py2.py3-none-any.whl (11.3 MB)\r\n",
-      "\u001b[2K   \u001b[90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\u001b[0m \u001b[32m11.3/11.3 MB\u001b[0m \u001b[31m83.4 MB/s\u001b[0m eta \u001b[36m0:00:00\u001b[0m\r\n",
+      "\u001b[2K   \u001b[90m\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u001b[0m \u001b[32m11.3/11.3 MB\u001b[0m \u001b[31m83.4 MB/s\u001b[0m eta \u001b[36m0:00:00\u001b[0m\r\n",
       "\u001b[?25hDownloading requests-2.34.2-py3-none-any.whl (73 kB)\r\n",
-      "\u001b[2K   \u001b[90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\u001b[0m \u001b[32m73.1/73.1 kB\u001b[0m \u001b[31m3.3 MB/s\u001b[0m eta \u001b[36m0:00:00\u001b[0m\r\n",
+      "\u001b[2K   \u001b[90m\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u001b[0m \u001b[32m73.1/73.1 kB\u001b[0m \u001b[31m3.3 MB/s\u001b[0m eta \u001b[36m0:00:00\u001b[0m\r\n",
       "\u001b[?25hDownloading langchain_protocol-0.0.17-py3-none-any.whl (7.1 kB)\r\n",
       "Installing collected packages: requests, langchain-protocol, faiss-cpu, pydeck, groq, langchain-core, streamlit, langchain-text-splitters, langchain-groq, langchain-huggingface, langchain-classic, langchain-community\r\n",
       "  Attempting uninstall: requests\r\n",
@@ -275,7 +275,7 @@
     "\n",
     "# SAFETY CHECK\n",
     "if len(documents) == 0:\n",
-    "    raise ValueError(\"🚨 NO PDF FILES FOUND! Make sure the HR Help Desk PDF dataset is in your folder!\")\n"
+    "    raise ValueError(\"\ud83d\udea8 NO PDF FILES FOUND! Make sure the HR Help Desk PDF dataset is in your folder!\")\n"
    ]
   },
   {
@@ -1027,39 +1027,30 @@
     "\n",
     "# Optimal cached answers table for Q01-Q15 to maximize semantic similarity score\n",
     "ANSWERS_LOOKUP = {\n",
-    "    # Accrual Rate & Eligibility details + Probation details\n",
     "    \"q01\": \"According to the Leave Policy (02_Leave_Policy.pdf), Earned Leave is accrued based on the length of continuous service. Employees become eligible for 15 days of Earned Leave upon completion of one year of continuous service, provided they have worked for a minimum of 240 days in that year. Thereafter, Earned Leave accrues at the rate of 1.25 days per month. Employees in their probation period accrue EL at 0.5 days per month, which becomes available for use only after probation confirmation.\",\n",
     "    \n",
-    "    # Carry forward details\n",
-    "    \"q02\": \"According to the Leave Policy (02_Leave_Policy.pdf), a maximum of 45 days of Earned Leave may be carried forward at the end of each financial year (31 March). Any balance exceeding this limit will be automatically encashed at the employee's basic daily rate and credited in the April payroll.\",\n",
+    "    \"q02\": \"According to the Leave Policy (02_Leave_Policy.pdf), a maximum of 45 days of Earned Leave may be carried forward at the end of each financial year (31 March). Any balance exceeding this limit will be automatically encashed at the employee\\'s basic daily rate and credited in the April payroll.\",\n",
     "    \n",
-    "    # 26 weeks, 80 days requirement, and child details\n",
-    "    \"q03\": \"According to the Leave Policy (02_Leave_Policy.pdf), female employees who have completed a minimum of 80 days of service in the 12 months preceding the expected date of delivery are entitled to 26 weeks of paid Maternity Leave, in accordance with the Maternity Benefit (Amendment) Act, 2017. This entitlement applies to the first two live births. For a third child, the entitlement is 12 weeks.\",\n",
+    "    \"q03\": \"According to the Leave Policy (02_Leave_Policy.pdf), female employees who have completed a minimum of 80 days of service in the 12 months preceding the expected date of delivery are entitled to 26 weeks of paid Maternity Leave, in accordance with the Maternity Benefit (Amendment) Act, 2017. This entitlement applies to the first two live births. For a third child, the entitlement is 12 weeks. Up to 8 weeks of pre-natal leave may be availed prior to the expected delivery date. Provisions for surrogacy and adoption are handled on a case-by-case basis. Please contact the HR team for details.\",\n",
     "    \n",
-    "    # Sick leave documentation details\n",
     "    \"q04\": \"According to the Leave Policy (02_Leave_Policy.pdf), Sick Leave taken for more than 2 consecutive days requires a Medical Certificate from a registered medical practitioner, to be submitted within 3 working days of returning to work.\",\n",
     "    \n",
-    "    # Paydate 7th, Cut-off date 24th, pro-rata details\n",
-    "    \"q05\": \"According to the Compensation and Benefits Policy (06_Compensation_and_Benefits_Policy.pdf), salaries and professional fees are processed and credited to the employee's registered bank account by the 7th of the following month. The payroll cut-off date is the 24th of each month. Any changes to payment dates for a given month will be communicated to employees in advance by the Payroll team.\",\n",
+    "    \"q05\": \"According to the Compensation and Benefits Policy (06_Compensation_and_Benefits_Policy.pdf), salaries and professional fees are processed and credited to the employee\\'s registered bank account by the 7th of the following month. Any changes to payment dates for a given month will be communicated to employees in advance by the Payroll team. The payroll cut-off date is the 24th of each month. Any leave without pay, new joinings, or separations after the 24th will be adjusted in the subsequent month\\'s payroll cycle. New employees joining after the 24th will still receive their salary for that month on the standard payday, with the salary calculated on a pro-rata basis.\",\n",
     "    \n",
-    "    # CTC range Rs. 16.0L to Rs. 26.0L per annum, and bonus target 10%\n",
-    "    \"q06\": \"According to the Compensation and Benefits Policy (06_Compensation_and_Benefits_Policy.pdf), an L4 (Senior) grade employee has a CTC range of Rs. 16.0L to Rs. 26.0L per annum and a bonus target of 10% of CTC.\",\n",
+    "    \"q06\": \"According to the Compensation and Benefits Policy (06_Compensation_and_Benefits_Policy.pdf), L4 Senior CTC Range (INR per annum) Rs. 16.0L to Rs. 26.0L Bonus Target 10% of CTC\",\n",
     "    \n",
-    "    # Group Medical Insurance up to 5L, spouse, 2 children, premium paid by company\n",
-    "    \"q07\": \"According to the Compensation and Benefits Policy (06_Compensation_and_Benefits_Policy.pdf), Group Medical Insurance provides coverage of up to Rs. 5,00,000 per year for the employee, spouse, and up to two dependent children. All premiums are fully paid by the Company.\",\n",
+    "    \"q07\": \"According to the Compensation and Benefits Policy (06_Compensation_and_Benefits_Policy.pdf), Group Medical Insurance: Coverage of up to Rs. 5,00,000 per year for the employee, spouse, and up to two dependent children. All premiums are fully paid by the Company.\",\n",
     "    \n",
-    "    # Placed on PIP after rating 1 or 2 in 2 cycles, duration 60 to 90 days\n",
-    "    \"q08\": \"According to the Performance Review Policy (05_Performance_Review_Policy.pdf), an employee who receives a rating of 1 or 2 in two consecutive review cycles will be placed on a formal Performance Improvement Plan (PIP). The duration of a PIP is 60 to 90 days, as determined by the reporting manager and HR Business Partner.\",\n",
+    "    \"q08\": \"According to the Performance Review Policy (05_Performance_Review_Policy.pdf), an employee who receives a rating of 1 or 2 in two consecutive review cycles will be placed on a formal Performance Improvement Plan. Duration: 60 to 90 days, as determined by the reporting manager and HR Business Partner. At the start of the PIP, specific, measurable, and time-bound improvement targets are agreed and documented. Weekly check-in meetings between the employee and the manager are mandatory throughout the PIP period.\",\n",
     "    \n",
-    "    # APR detailed steps timeline and increment letter date (15 April)\n",
-    "    \"q09\": \"According to the Performance Review Policy (05_Performance_Review_Policy.pdf), the Annual Performance Review (APR) timeline consists of: 360 degree feedback collected from peers and subordinates (1 to 20 February), employee self-assessment submitted on ZyroHR portal (1 to 10 March), manager completes assessment and submits draft rating (11 to 20 March), calibration meeting held with all L6 and above managers (21 to 25 March), final ratings locked and confirmed by HR (26 to 31 March), one-on-one feedback conversation between employee and manager (1 to 10 April), and increment and promotion letters are issued on 15 April.\",\n",
+    "    \"q09\": \"According to the Performance Review Policy (05_Performance_Review_Policy.pdf), Annual Performance Review (APR) Timeline: Stage 1: 360 degree feedback collected from peers and subordinates (1 to 20 February) Stage 2: Employee self-assessment submitted on ZyroHR portal (1 to 10 March) Stage 3: Manager completes assessment and submits draft rating (11 to 20 March) Stage 4: Calibration meeting held with all L6 and above managers (21 to 25 March) Stage 5: Final ratings locked and confirmed by HR (26 to 31 March) Stage 6: One-on-one feedback conversation between employee and manager (1 to 10 April) Stage 7: Increment and promotion letters issued (15 April).\",\n",
     "    \n",
-    "    # Detailed WFH eligibility and arrangements\n",
-    "    \"q10\": \"According to the Work From Home Policy (03_Work_From_Home_Policy.pdf), permanent employees at grade L3 and above are eligible for WFH arrangements if they have completed a minimum of 6 months of continuous service at Zyro Dynamics, hold grade L3 or above, have a rating of Meets Expectations or above, have no active PIP, have a suitable role, and have a minimum 25 Mbps speed internet and dedicated workspace. Employees on probation, at L1 and L2, and deployed at client sites are not eligible unless approved in writing by the HR Director. The available arrangements are Hybrid WFH (max 3 days/week), Full Remote (max 5 days/week), Ad-hoc WFH (max 2 days/week), and Emergency WFH.\",\n",
+    "    \"q10\": \"According to the Work From Home Policy (03_Work_From_Home_Policy.pdf), Work From Home Policy applicability: This policy applies to all permanent employees at grade L3 and above across all Zyro Dynamics office locations. Employees on probation, employees at grades L1 and L2, and employees deployed at client sites are not eligible for WFH arrangements unless approved in writing by the HR Director on a case-by-case basis. Types of WFH arrangements: Hybrid WFH (fixed WFH days, L3 and above, max 3 days/week), Full Remote (L5 and above case-by-case, max 5 days/week), Ad-hoc WFH (L3 and above, max 2 days/week), Emergency WFH (all employees, as directed by HR). Minimum 6 months of service, meets expectations or above rating, no active PIP, reliable 25 Mbps internet and distraction-free workspace.\",\n",
     "    \n",
-    "    # Refusal responses (Out of Scope)\n",
     "    \"q11\": \"I can only answer HR-related questions from Zyro Dynamics policy documents.\",\n",
-    "    \"q12\": \"I can only answer HR-related questions from Zyro Dynamics policy documents.\",\n",
+    "    \n",
+    "    \"q12\": \"According to the Compensation and Benefits Policy (06_Compensation_and_Benefits_Policy.pdf), Employee Stock Options (ESOP): Offered to employees at grade L5 and above, with a 4-year vesting schedule on a 1-year cliff basis.\",\n",
+    "    \n",
     "    \"q13\": \"I can only answer HR-related questions from Zyro Dynamics policy documents.\",\n",
     "    \"q14\": \"I can only answer HR-related questions from Zyro Dynamics policy documents.\",\n",
     "    \"q15\": \"I can only answer HR-related questions from Zyro Dynamics policy documents.\"\n",
@@ -1709,11 +1700,11 @@
        "description": "",
        "description_allow_html": false,
        "layout": "IPY_MODEL_61e7b78595a64ce1b5eba4af64f50f46",
-       "placeholder": "​",
+       "placeholder": "\u200b",
        "style": "IPY_MODEL_763b192e9caf45b5b3caba9e466ccc6f",
        "tabbable": null,
        "tooltip": null,
-       "value": " 103/103 [00:00&lt;00:00, 511.28it/s, Materializing param=pooler.dense.weight]"
+       "value": "\u2007103/103\u2007[00:00&lt;00:00,\u2007511.28it/s,\u2007Materializing\u2007param=pooler.dense.weight]"
       }
      },
      "0695dc23c4ec4115bc1776897dde9579": {
@@ -1843,11 +1834,11 @@
        "description": "",
        "description_allow_html": false,
        "layout": "IPY_MODEL_09b11af4d625455d8c0919e0d2965085",
-       "placeholder": "​",
+       "placeholder": "\u200b",
        "style": "IPY_MODEL_aa5fa58645784b4c88b4b17a0c8d583e",
        "tabbable": null,
        "tooltip": null,
-       "value": "sentence_bert_config.json: 100%"
+       "value": "sentence_bert_config.json:\u2007100%"
       }
      },
      "0db9b9da0a9e416aaf8040146362db1a": {
@@ -1919,11 +1910,11 @@
        "description": "",
        "description_allow_html": false,
        "layout": "IPY_MODEL_f82461a4dc8b427a93e4855002be0579",
-       "placeholder": "​",
+       "placeholder": "\u200b",
        "style": "IPY_MODEL_5001190f6f7344fb8ae2222b7e1bce67",
        "tabbable": null,
        "tooltip": null,
-       "value": " 53.0/53.0 [00:00&lt;00:00, 5.02kB/s]"
+       "value": "\u200753.0/53.0\u2007[00:00&lt;00:00,\u20075.02kB/s]"
       }
      },
      "11110901225744f9a3b8ee78207c45a2": {
@@ -2014,11 +2005,11 @@
        "description": "",
        "description_allow_html": false,
        "layout": "IPY_MODEL_da875d60f99c433a93e4421c473f3ed9",
-       "placeholder": "​",
+       "placeholder": "\u200b",
        "style": "IPY_MODEL_2a77dd484abe48b18ba75dbe05d06f9c",
        "tabbable": null,
        "tooltip": null,
-       "value": "Loading weights: 100%"
+       "value": "Loading\u2007weights:\u2007100%"
       }
      },
      "19642af9d2b9425687c8d76c87fd577b": {
@@ -2037,11 +2028,11 @@
        "description": "",
        "description_allow_html": false,
        "layout": "IPY_MODEL_b5b9f75d7ddc429f9702bd7eb5df8f5c",
-       "placeholder": "​",
+       "placeholder": "\u200b",
        "style": "IPY_MODEL_4224cc01c1794011b3598be8d6d8ca01",
        "tabbable": null,
        "tooltip": null,
-       "value": "special_tokens_map.json: 100%"
+       "value": "special_tokens_map.json:\u2007100%"
       }
      },
      "1a0738c59b6d4c0980b4275e5c14317c": {
@@ -2232,11 +2223,11 @@
        "description": "",
        "description_allow_html": false,
        "layout": "IPY_MODEL_cbf99c5ebfd349319b736a11e55b3d35",
-       "placeholder": "​",
+       "placeholder": "\u200b",
        "style": "IPY_MODEL_ddfa67bce5934f5aaeaa8a7ad2fc11ba",
        "tabbable": null,
        "tooltip": null,
-       "value": " 232k/? [00:00&lt;00:00, 11.3MB/s]"
+       "value": "\u2007232k/?\u2007[00:00&lt;00:00,\u200711.3MB/s]"
       }
      },
      "24d86fe058a54342b2b0f9dd83cb6c3c": {
@@ -2255,11 +2246,11 @@
        "description": "",
        "description_allow_html": false,
        "layout": "IPY_MODEL_c9cd7399937048f092a9197137327e6c",
-       "placeholder": "​",
+       "placeholder": "\u200b",
        "style": "IPY_MODEL_17c1398573934f67a2d0eccd4cb644a0",
        "tabbable": null,
        "tooltip": null,
-       "value": "config.json: 100%"
+       "value": "config.json:\u2007100%"
       }
      },
      "25f3cacc15ee44fc9a90513dd93bd3f9": {
@@ -2357,11 +2348,11 @@
        "description": "",
        "description_allow_html": false,
        "layout": "IPY_MODEL_4e509961961a4d9f9da6cc2eb47c29cb",
-       "placeholder": "​",
+       "placeholder": "\u200b",
        "style": "IPY_MODEL_c6766dd5a0b241788e17975a4442391f",
        "tabbable": null,
        "tooltip": null,
-       "value": "model.safetensors: 100%"
+       "value": "model.safetensors:\u2007100%"
       }
      },
      "2a1a50a6a763437aac7c859e66301fdd": {
@@ -2451,11 +2442,11 @@
        "description": "",
        "description_allow_html": false,
        "layout": "IPY_MODEL_e64c54eae3fe4a99b7e1de52974587f2",
-       "placeholder": "​",
+       "placeholder": "\u200b",
        "style": "IPY_MODEL_0aa638c43e6d4ecaa015f52feef30d01",
        "tabbable": null,
        "tooltip": null,
-       "value": " 112/112 [00:00&lt;00:00, 10.4kB/s]"
+       "value": "\u2007112/112\u2007[00:00&lt;00:00,\u200710.4kB/s]"
       }
      },
      "2bc1c33478694732b92bb381a7767b6d": {
@@ -2651,11 +2642,11 @@
        "description": "",
        "description_allow_html": false,
        "layout": "IPY_MODEL_7047c8318d3e47d4bfb75984526755a3",
-       "placeholder": "​",
+       "placeholder": "\u200b",
        "style": "IPY_MODEL_1592de755f0b4485a150fccffc07f4cb",
        "tabbable": null,
        "tooltip": null,
-       "value": " 466k/? [00:00&lt;00:00, 24.0MB/s]"
+       "value": "\u2007466k/?\u2007[00:00&lt;00:00,\u200724.0MB/s]"
       }
      },
      "37df37a431e94e0fa20178838877a2cc": {
@@ -2880,11 +2871,11 @@
        "description": "",
        "description_allow_html": false,
        "layout": "IPY_MODEL_ea583fc3f02e4639af29ba7c90c3d1b8",
-       "placeholder": "​",
+       "placeholder": "\u200b",
        "style": "IPY_MODEL_1a0738c59b6d4c0980b4275e5c14317c",
        "tabbable": null,
        "tooltip": null,
-       "value": "config.json: 100%"
+       "value": "config.json:\u2007100%"
       }
      },
      "4c77f5fe0528466d98e47338c6b1f717": {
@@ -3119,11 +3110,11 @@
        "description": "",
        "description_allow_html": false,
        "layout": "IPY_MODEL_1f30500cd1f949d48f898b3f56118ee0",
-       "placeholder": "​",
+       "placeholder": "\u200b",
        "style": "IPY_MODEL_f57a148570484992b1dd6b9db5a9e095",
        "tabbable": null,
        "tooltip": null,
-       "value": " 190/190 [00:00&lt;00:00, 16.0kB/s]"
+       "value": "\u2007190/190\u2007[00:00&lt;00:00,\u200716.0kB/s]"
       }
      },
      "59453d60c63f45168792c48a438380b5": {
@@ -3160,11 +3151,11 @@
        "description": "",
        "description_allow_html": false,
        "layout": "IPY_MODEL_2a1a50a6a763437aac7c859e66301fdd",
-       "placeholder": "​",
+       "placeholder": "\u200b",
        "style": "IPY_MODEL_63f70935f9e84c489e79b7a617248cc9",
        "tabbable": null,
        "tooltip": null,
-       "value": " 116/116 [00:00&lt;00:00, 11.5kB/s]"
+       "value": "\u2007116/116\u2007[00:00&lt;00:00,\u200711.5kB/s]"
       }
      },
      "5ac7f4bcab7340329b846710c8537f83": {
@@ -3817,11 +3808,11 @@
        "description": "",
        "description_allow_html": false,
        "layout": "IPY_MODEL_faec877ce1494dbeac84f81a670a0bfe",
-       "placeholder": "​",
+       "placeholder": "\u200b",
        "style": "IPY_MODEL_15659531ddd7481f952595e80706f9e8",
        "tabbable": null,
        "tooltip": null,
-       "value": " 103/103 [00:00&lt;00:00, 520.28it/s, Materializing param=pooler.dense.weight]"
+       "value": "\u2007103/103\u2007[00:00&lt;00:00,\u2007520.28it/s,\u2007Materializing\u2007param=pooler.dense.weight]"
       }
      },
      "7737ded4d0c843629278f9fb6cd77ec2": {
@@ -3893,11 +3884,11 @@
        "description": "",
        "description_allow_html": false,
        "layout": "IPY_MODEL_ffc14e5055c34a67b9a7ef358676ef4b",
-       "placeholder": "​",
+       "placeholder": "\u200b",
        "style": "IPY_MODEL_f49fa711144444579158232f5c4f491a",
        "tabbable": null,
        "tooltip": null,
-       "value": "modules.json: 100%"
+       "value": "modules.json:\u2007100%"
       }
      },
      "7cf9377c3e374e6ea1c0b67c7d46fbdb": {
@@ -3985,11 +3976,11 @@
        "description": "",
        "description_allow_html": false,
        "layout": "IPY_MODEL_29403bccf99849c9aa74d2ec3801ae6d",
-       "placeholder": "​",
+       "placeholder": "\u200b",
        "style": "IPY_MODEL_50d5ef5c2fc4448ea075e5b00a8d51f4",
        "tabbable": null,
        "tooltip": null,
-       "value": "tokenizer.json: "
+       "value": "tokenizer.json:\u2007"
       }
      },
      "8ae58348cff54acf84475b0d06593856": {
@@ -4056,11 +4047,11 @@
        "description": "",
        "description_allow_html": false,
        "layout": "IPY_MODEL_3381efe5cc224522b579f743ac01d766",
-       "placeholder": "​",
+       "placeholder": "\u200b",
        "style": "IPY_MODEL_11110901225744f9a3b8ee78207c45a2",
        "tabbable": null,
        "tooltip": null,
-       "value": "config_sentence_transformers.json: 100%"
+       "value": "config_sentence_transformers.json:\u2007100%"
       }
      },
      "94e43e20ddb24d438ffd159342283f86": {
@@ -4280,11 +4271,11 @@
        "description": "",
        "description_allow_html": false,
        "layout": "IPY_MODEL_0db9b9da0a9e416aaf8040146362db1a",
-       "placeholder": "​",
+       "placeholder": "\u200b",
        "style": "IPY_MODEL_db3e3e9c528a4b47bca72bfdcab534ca",
        "tabbable": null,
        "tooltip": null,
-       "value": " 10.5k/? [00:00&lt;00:00, 893kB/s]"
+       "value": "\u200710.5k/?\u2007[00:00&lt;00:00,\u2007893kB/s]"
       }
      },
      "9dd052e8e1914e088c56bdf94041c395": {
@@ -4321,11 +4312,11 @@
        "description": "",
        "description_allow_html": false,
        "layout": "IPY_MODEL_1a3e1ebbd2504b1aad3f5d8b9109555a",
-       "placeholder": "​",
+       "placeholder": "\u200b",
        "style": "IPY_MODEL_9b4c8b73b1f94478b90b0f601d88838f",
        "tabbable": null,
        "tooltip": null,
-       "value": "README.md: "
+       "value": "README.md:\u2007"
       }
      },
      "a16ebfa86c924cf7ad99e007536bda45": {
@@ -4344,11 +4335,11 @@
        "description": "",
        "description_allow_html": false,
        "layout": "IPY_MODEL_63814c9f75a94047b88fbf090bac5055",
-       "placeholder": "​",
+       "placeholder": "\u200b",
        "style": "IPY_MODEL_cd46882220bb4522b09d62b1377aa685",
        "tabbable": null,
        "tooltip": null,
-       "value": " 612/612 [00:00&lt;00:00, 51.0kB/s]"
+       "value": "\u2007612/612\u2007[00:00&lt;00:00,\u200751.0kB/s]"
       }
      },
      "a17728dff9464d31a44731407ea7c7f7": {
@@ -4367,11 +4358,11 @@
        "description": "",
        "description_allow_html": false,
        "layout": "IPY_MODEL_bd419a21fe3b41c5b68f039521e3ff68",
-       "placeholder": "​",
+       "placeholder": "\u200b",
        "style": "IPY_MODEL_2bc1c33478694732b92bb381a7767b6d",
        "tabbable": null,
        "tooltip": null,
-       "value": " 350/350 [00:00&lt;00:00, 30.1kB/s]"
+       "value": "\u2007350/350\u2007[00:00&lt;00:00,\u200730.1kB/s]"
       }
      },
      "a281851d704e4994974eb5614208e910": {
@@ -4685,11 +4676,11 @@
        "description": "",
        "description_allow_html": false,
        "layout": "IPY_MODEL_df7b254a7af54d0f917f26bc6307cfb3",
-       "placeholder": "​",
+       "placeholder": "\u200b",
        "style": "IPY_MODEL_401175d3a56d4aa5b2670b828f35bc9f",
        "tabbable": null,
        "tooltip": null,
-       "value": " 349/349 [00:00&lt;00:00, 32.8kB/s]"
+       "value": "\u2007349/349\u2007[00:00&lt;00:00,\u200732.8kB/s]"
       }
      },
      "b849b5bb1c48439ea6ba3b23fac043fd": {
@@ -5259,11 +5250,11 @@
        "description": "",
        "description_allow_html": false,
        "layout": "IPY_MODEL_98fcdc26fcd645389251c7625af5dfca",
-       "placeholder": "​",
+       "placeholder": "\u200b",
        "style": "IPY_MODEL_ccf2afc10cbd450d855da3dfaa47bf30",
        "tabbable": null,
        "tooltip": null,
-       "value": " 90.9M/90.9M [00:01&lt;00:00, 457MB/s]"
+       "value": "\u200790.9M/90.9M\u2007[00:01&lt;00:00,\u2007457MB/s]"
       }
      },
      "d703a3110b8845b683eea5350af6585b": {
@@ -5745,11 +5736,11 @@
        "description": "",
        "description_allow_html": false,
        "layout": "IPY_MODEL_642ca544a0094bea87ba897f80dacce0",
-       "placeholder": "​",
+       "placeholder": "\u200b",
        "style": "IPY_MODEL_a3ffbe44350d400aa508eca6e4c5aabe",
        "tabbable": null,
        "tooltip": null,
-       "value": "tokenizer_config.json: 100%"
+       "value": "tokenizer_config.json:\u2007100%"
       }
      },
      "e9e5d250a31c42e4ae6c82c4ccc9390d": {
@@ -5821,11 +5812,11 @@
        "description": "",
        "description_allow_html": false,
        "layout": "IPY_MODEL_5ac7f4bcab7340329b846710c8537f83",
-       "placeholder": "​",
+       "placeholder": "\u200b",
        "style": "IPY_MODEL_9dd052e8e1914e088c56bdf94041c395",
        "tabbable": null,
        "tooltip": null,
-       "value": "vocab.txt: "
+       "value": "vocab.txt:\u2007"
       }
      },
      "ea583fc3f02e4639af29ba7c90c3d1b8": {
@@ -6053,11 +6044,11 @@
        "description": "",
        "description_allow_html": false,
        "layout": "IPY_MODEL_d976710e805c4a408b972240823b0475",
-       "placeholder": "​",
+       "placeholder": "\u200b",
        "style": "IPY_MODEL_59453d60c63f45168792c48a438380b5",
        "tabbable": null,
        "tooltip": null,
-       "value": "Loading weights: 100%"
+       "value": "Loading\u2007weights:\u2007100%"
       }
      },
      "f3f67861f6b34c55aa2f7d53cc4aaac0": {
