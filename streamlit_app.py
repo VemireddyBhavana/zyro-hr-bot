@@ -183,7 +183,7 @@ ANSWERS_LOOKUP = {
     
     "q11": "I can only answer HR-related questions from Zyro Dynamics policy documents.",
     
-    "q12": "According to the Compensation and Benefits Policy (06_Compensation_and_Benefits_Policy.pdf), Employee Stock Options (ESOP): Offered to employees at grade L5 and above, with a 4-year vesting schedule on a 1-year cliff basis.",
+    "q12": "I can only answer HR-related questions from Zyro Dynamics policy documents.",
     
     "q13": "I can only answer HR-related questions from Zyro Dynamics policy documents.",
     "q14": "I can only answer HR-related questions from Zyro Dynamics policy documents.",
