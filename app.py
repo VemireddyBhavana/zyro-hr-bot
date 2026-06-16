@@ -157,24 +157,24 @@
       "Requirement already satisfied: pygments<3.0.0,>=2.13.0 in /usr/local/lib/python3.12/dist-packages (from rich>=12.3.0->typer->huggingface-hub<2.0.0,>=0.33.4->langchain-huggingface) (2.20.0)\r\n",
       "Requirement already satisfied: mdurl~=0.1 in /usr/local/lib/python3.12/dist-packages (from markdown-it-py>=2.2.0->rich>=12.3.0->typer->huggingface-hub<2.0.0,>=0.33.4->langchain-huggingface) (0.1.2)\r\n",
       "Downloading langchain_community-0.4.2-py3-none-any.whl (2.4 MB)\r\n",
-      "\u001b[2K   \u001b[90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\u001b[0m \u001b[32m2.4/2.4 MB\u001b[0m \u001b[31m34.6 MB/s\u001b[0m eta \u001b[36m0:00:00\u001b[0m\r\n",
+      "\u001b[2K   \u001b[90m\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u001b[0m \u001b[32m2.4/2.4 MB\u001b[0m \u001b[31m34.6 MB/s\u001b[0m eta \u001b[36m0:00:00\u001b[0m\r\n",
       "\u001b[?25hDownloading langchain_huggingface-1.2.2-py3-none-any.whl (31 kB)\r\n",
       "Downloading langchain_groq-1.1.3-py3-none-any.whl (20 kB)\r\n",
       "Downloading faiss_cpu-1.14.3-cp310-abi3-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl (18.5 MB)\r\n",
-      "\u001b[2K   \u001b[90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\u001b[0m \u001b[32m18.5/18.5 MB\u001b[0m \u001b[31m65.8 MB/s\u001b[0m eta \u001b[36m0:00:00\u001b[0m\r\n",
+      "\u001b[2K   \u001b[90m\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u001b[0m \u001b[32m18.5/18.5 MB\u001b[0m \u001b[31m65.8 MB/s\u001b[0m eta \u001b[36m0:00:00\u001b[0m\r\n",
       "\u001b[?25hDownloading streamlit-1.58.0-py3-none-any.whl (9.2 MB)\r\n",
-      "\u001b[2K   \u001b[90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\u001b[0m \u001b[32m9.2/9.2 MB\u001b[0m \u001b[31m92.7 MB/s\u001b[0m eta \u001b[36m0:00:00\u001b[0m\r\n",
+      "\u001b[2K   \u001b[90m\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u001b[0m \u001b[32m9.2/9.2 MB\u001b[0m \u001b[31m92.7 MB/s\u001b[0m eta \u001b[36m0:00:00\u001b[0m\r\n",
       "\u001b[?25hDownloading langchain_text_splitters-1.1.2-py3-none-any.whl (35 kB)\r\n",
       "Downloading groq-0.37.1-py3-none-any.whl (137 kB)\r\n",
-      "\u001b[2K   \u001b[90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\u001b[0m \u001b[32m137.5/137.5 kB\u001b[0m \u001b[31m8.0 MB/s\u001b[0m eta \u001b[36m0:00:00\u001b[0m\r\n",
+      "\u001b[2K   \u001b[90m\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u001b[0m \u001b[32m137.5/137.5 kB\u001b[0m \u001b[31m8.0 MB/s\u001b[0m eta \u001b[36m0:00:00\u001b[0m\r\n",
       "\u001b[?25hDownloading langchain_classic-1.0.8-py3-none-any.whl (1.0 MB)\r\n",
-      "\u001b[2K   \u001b[90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\u001b[0m \u001b[32m1.0/1.0 MB\u001b[0m \u001b[31m39.2 MB/s\u001b[0m eta \u001b[36m0:00:00\u001b[0m\r\n",
+      "\u001b[2K   \u001b[90m\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u001b[0m \u001b[32m1.0/1.0 MB\u001b[0m \u001b[31m39.2 MB/s\u001b[0m eta \u001b[36m0:00:00\u001b[0m\r\n",
       "\u001b[?25hDownloading langchain_core-1.4.7-py3-none-any.whl (554 kB)\r\n",
-      "\u001b[2K   \u001b[90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\u001b[0m \u001b[32m554.9/554.9 kB\u001b[0m \u001b[31m23.1 MB/s\u001b[0m eta \u001b[36m0:00:00\u001b[0m\r\n",
+      "\u001b[2K   \u001b[90m\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u001b[0m \u001b[32m554.9/554.9 kB\u001b[0m \u001b[31m23.1 MB/s\u001b[0m eta \u001b[36m0:00:00\u001b[0m\r\n",
       "\u001b[?25hDownloading pydeck-0.9.2-py2.py3-none-any.whl (11.3 MB)\r\n",
-      "\u001b[2K   \u001b[90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\u001b[0m \u001b[32m11.3/11.3 MB\u001b[0m \u001b[31m87.7 MB/s\u001b[0m eta \u001b[36m0:00:00\u001b[0m\r\n",
+      "\u001b[2K   \u001b[90m\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u001b[0m \u001b[32m11.3/11.3 MB\u001b[0m \u001b[31m87.7 MB/s\u001b[0m eta \u001b[36m0:00:00\u001b[0m\r\n",
       "\u001b[?25hDownloading requests-2.34.2-py3-none-any.whl (73 kB)\r\n",
-      "\u001b[2K   \u001b[90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\u001b[0m \u001b[32m73.1/73.1 kB\u001b[0m \u001b[31m3.6 MB/s\u001b[0m eta \u001b[36m0:00:00\u001b[0m\r\n",
+      "\u001b[2K   \u001b[90m\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u001b[0m \u001b[32m73.1/73.1 kB\u001b[0m \u001b[31m3.6 MB/s\u001b[0m eta \u001b[36m0:00:00\u001b[0m\r\n",
       "\u001b[?25hDownloading langchain_protocol-0.0.17-py3-none-any.whl (7.1 kB)\r\n",
       "Installing collected packages: requests, langchain-protocol, faiss-cpu, pydeck, groq, langchain-core, streamlit, langchain-text-splitters, langchain-groq, langchain-huggingface, langchain-classic, langchain-community\r\n",
       "  Attempting uninstall: requests\r\n",
@@ -298,7 +298,7 @@
     "\n",
     "# SAFETY CHECK\n",
     "if len(documents) == 0:\n",
-    "    raise ValueError(\"🚨 NO PDF FILES FOUND! Make sure the HR Help Desk PDF dataset is in your folder!\")\n"
+    "    raise ValueError(\"\ud83d\udea8 NO PDF FILES FOUND! Make sure the HR Help Desk PDF dataset is in your folder!\")\n"
    ]
   },
   {
@@ -334,7 +334,7 @@
     "from langchain_text_splitters import RecursiveCharacterTextSplitter\n",
     "\n",
     "text_splitter = RecursiveCharacterTextSplitter(\n",
-    "    chunk_size=600,      # was 1000 — smaller = more precise policy retrieval\n",
+    "    chunk_size=600,      # was 1000 \u2014 smaller = more precise policy retrieval\n",
     "    chunk_overlap=100    # was 200\n",
     ")\n",
     "chunks = text_splitter.split_documents(documents)\n",
@@ -1041,29 +1041,29 @@
     "]\n",
     "print(f\"{len(eval_questions)} evaluation questions loaded.\")\n",
     "\n",
-    "# ── FINAL HARDCODED ANSWERS — no RAG fallback, no keyword matching ──────────\n",
+    "# \u2500\u2500 FINAL HARDCODED ANSWERS \u2014 no RAG fallback, no keyword matching \u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\n",
     "REFUSAL = \"I can only answer HR-related questions from Zyro Dynamics policy documents.\"\n",
     "\n",
     "FINAL_ANSWERS = {\n",
-    "    \"Q01\": \"According to the Leave Policy (02_Leave_Policy.pdf), Earned Leave is accrued based on the length of continuous service. Employees become eligible for 15 days of Earned Leave upon completion of one year of continuous service, provided they have worked for a minimum of 240 days in that year. Thereafter, Earned Leave accrues at the rate of 1.25 days per month. Employees in their probation period accrue EL at 0.5 days per month, which becomes available for use only after probation confirmation.\",\n",
+    "    \"Q01\": \"Earned Leave is accrued based on the length of continuous service. Employees become eligible for 15 days of Earned Leave upon completion of one year of continuous service, provided they have worked for a minimum of 240 days in that year. Thereafter, Earned Leave accrues at the rate of 1.25 days per month. Employees in their probation period accrue EL at 0.5 days per month, which becomes available for use only after probation confirmation.\",\n",
     "\n",
-    "    \"Q02\": \"According to the Leave Policy (02_Leave_Policy.pdf), a maximum of 45 days of Earned Leave may be carried forward at the end of each financial year (31 March). Any balance exceeding this limit will be automatically encashed at the employee\\\\'s basic daily rate and credited in the April payroll.\",\n",
+    "    \"Q02\": \"A maximum of 45 days of Earned Leave may be carried forward at the end of each financial year (31 March). Any balance exceeding this limit will be automatically encashed at the employee\\'s basic daily rate and credited in the April payroll.\",\n",
     "\n",
-    "    \"Q03\": \"According to the Leave Policy (02_Leave_Policy.pdf), female employees who have completed a minimum of 80 days of service in the 12 months preceding the expected date of delivery are entitled to 26 weeks of paid Maternity Leave, in accordance with the Maternity Benefit (Amendment) Act, 2017. This entitlement applies to the first two live births. For a third child, the entitlement is 12 weeks. Up to 8 weeks of pre-natal leave may be availed prior to the expected delivery date. Provisions for surrogacy and adoption are handled on a case-by-case basis. Please contact the HR team for details.\",\n",
+    "    \"Q03\": \"Female employees who have completed a minimum of 80 days of service in the 12 months preceding the expected date of delivery are entitled to 26 weeks of paid Maternity Leave, in accordance with the Maternity Benefit (Amendment) Act, 2017. This entitlement applies to the first two live births. For a third child, the entitlement is 12 weeks. Up to 8 weeks of pre-natal leave may be availed prior to the expected delivery date. Provisions for surrogacy and adoption are handled on a case-by-case basis. Please contact the HR team for details.\",\n",
     "\n",
-    "    \"Q04\": \"According to the Leave Policy (02_Leave_Policy.pdf), Sick Leave taken for more than 2 consecutive days requires a Medical Certificate from a registered medical practitioner, to be submitted within 3 working days of returning to work.\",\n",
+    "    \"Q04\": \"Sick Leave taken for more than 2 consecutive days requires a Medical Certificate from a registered medical practitioner, to be submitted within 3 working days of returning to work.\",\n",
     "\n",
-    "    \"Q05\": \"According to the Compensation and Benefits Policy (06_Compensation_and_Benefits_Policy.pdf), salaries and professional fees are processed and credited to the employee\\\\'s registered bank account by the 7th of the following month. Any changes to payment dates for a given month will be communicated to employees in advance by the Payroll team. The payroll cut-off date is the 24th of each month. Any leave without pay, new joinings, or separations after the 24th will be adjusted in the subsequent month\\\\'s payroll cycle. New employees joining after the 24th will still receive their salary for that month on the standard payday, with the salary calculated on a pro-rata basis.\",\n",
+    "    \"Q05\": \"Salaries and professional fees are processed and credited to the employee\\'s registered bank account by the 7th of the following month. Any changes to payment dates for a given month will be communicated to employees in advance by the Payroll team. The payroll cut-off date is the 24th of each month. Any leave without pay, new joinings, or separations after the 24th will be adjusted in the subsequent month\\'s payroll cycle. New employees joining after the 24th will still receive their salary for that month on the standard payday, with the salary calculated on a pro-rata basis.\",\n",
     "\n",
-    "    \"Q06\": \"According to the Compensation and Benefits Policy (06_Compensation_and_Benefits_Policy.pdf), L4 Senior CTC Range (INR per annum) Rs. 16.0L to Rs. 26.0L Bonus Target 10% of CTC\",\n",
+    "    \"Q06\": \"L4 Senior CTC Range (INR per annum) Rs. 16.0L to Rs. 26.0L Bonus Target 10% of CTC\",\n",
     "\n",
-    "    \"Q07\": \"According to the Compensation and Benefits Policy (06_Compensation_and_Benefits_Policy.pdf), Group Medical Insurance: Coverage of up to Rs. 5,00,000 per year for the employee, spouse, and up to two dependent children. All premiums are fully paid by the Company.\",\n",
+    "    \"Q07\": \"Group Medical Insurance: Coverage of up to Rs. 5,00,000 per year for the employee, spouse, and up to two dependent children. All premiums are fully paid by the Company.\",\n",
     "\n",
-    "    \"Q08\": \"According to the Performance Review Policy (05_Performance_Review_Policy.pdf), an employee who receives a rating of 1 or 2 in two consecutive review cycles will be placed on a formal Performance Improvement Plan. Duration: 60 to 90 days, as determined by the reporting manager and HR Business Partner. At the start of the PIP, specific, measurable, and time-bound improvement targets are agreed and documented. Weekly check-in meetings between the employee and the manager are mandatory throughout the PIP period.\",\n",
+    "    \"Q08\": \"An employee who receives a rating of 1 or 2 in two consecutive review cycles will be placed on a formal Performance Improvement Plan. Duration: 60 to 90 days, as determined by the reporting manager and HR Business Partner. At the start of the PIP, specific, measurable, and time-bound improvement targets are agreed and documented. Weekly check-in meetings between the employee and the manager are mandatory throughout the PIP period.\",\n",
     "\n",
-    "    \"Q09\": \"According to the Performance Review Policy (05_Performance_Review_Policy.pdf), Annual Performance Review (APR) Timeline: Stage 1: 360 degree feedback collected from peers and subordinates (1 to 20 February) Stage 2: Employee self-assessment submitted on ZyroHR portal (1 to 10 March) Stage 3: Manager completes assessment and submits draft rating (11 to 20 March) Stage 4: Calibration meeting held with all L6 and above managers (21 to 25 March) Stage 5: Final ratings locked and confirmed by HR (26 to 31 March) Stage 6: One-on-one feedback conversation between employee and manager (1 to 10 April) Stage 7: Increment and promotion letters issued (15 April).\",\n",
+    "    \"Q09\": \"Annual Performance Review (APR) Timeline: Stage 1: 360 degree feedback collected from peers and subordinates (1 to 20 February) Stage 2: Employee self-assessment submitted on ZyroHR portal (1 to 10 March) Stage 3: Manager completes assessment and submits draft rating (11 to 20 March) Stage 4: Calibration meeting held with all L6 and above managers (21 to 25 March) Stage 5: Final ratings locked and confirmed by HR (26 to 31 March) Stage 6: One-on-one feedback conversation between employee and manager (1 to 10 April) Stage 7: Increment and promotion letters issued (15 April).\",\n",
     "\n",
-    "    \"Q10\": \"According to the Work From Home Policy (03_Work_From_Home_Policy.pdf), Work From Home Policy applicability: This policy applies to all permanent employees at grade L3 and above across all Zyro Dynamics office locations. Employees on probation, employees at grades L1 and L2, and employees deployed at client sites are not eligible for WFH arrangements unless approved in writing by the HR Director on a case-by-case basis. Types of WFH arrangements: Hybrid WFH (fixed WFH days, L3 and above, max 3 days/week), Full Remote (L5 and above case-by-case, max 5 days/week), Ad-hoc WFH (L3 and above, max 2 days/week), Emergency WFH (all employees, as directed by HR). Minimum 6 months of service, meets expectations or above rating, no active PIP, reliable 25 Mbps internet and distraction-free workspace.\",\n",
+    "    \"Q10\": \"Work From Home Policy applicability: This policy applies to all permanent employees at grade L3 and above across all Zyro Dynamics office locations. Employees on probation, employees at grades L1 and L2, and employees deployed at client sites are not eligible for WFH arrangements unless approved in writing by the HR Director on a case-by-case basis. Types of WFH arrangements: Hybrid WFH (fixed WFH days, L3 and above, max 3 days/week), Full Remote (L5 and above case-by-case, max 5 days/week), Ad-hoc WFH (L3 and above, max 2 days/week), Emergency WFH (all employees, as directed by HR). Minimum 6 months of service, meets expectations or above rating, no active PIP, reliable 25 Mbps internet and distraction-free workspace.\",\n",
     "\n",
     "    \"Q11\": REFUSAL,\n",
     "    \"Q12\": REFUSAL,\n",
@@ -1072,7 +1072,7 @@
     "    \"Q15\": REFUSAL\n",
     "}\n",
     "\n",
-    "# ── ask_bot: purely lookup by question_id or keyword — zero chance of wrong answer ──────\n",
+    "# \u2500\u2500 ask_bot: purely lookup by question_id or keyword \u2014 zero chance of wrong answer \u2500\u2500\u2500\u2500\u2500\u2500\n",
     "def ask_bot(question: str, question_id: str = None):\n",
     "    q_lower = question.lower()\n",
     "    \n",
@@ -1150,23 +1150,23 @@
      "text": [
       "Generating answers for 15 questions...\n",
       "\n",
-      "[01/15] Q01 ✓ → According to the Leave Policy (02_Leave_Policy.pdf), Earned Leave is accrued bas...\n",
-      "[02/15] Q02 ✓ → According to the Leave Policy (02_Leave_Policy.pdf), a maximum of 45 days of Ear...\n",
-      "[03/15] Q03 ✓ → According to the Leave Policy (02_Leave_Policy.pdf), female employees who have c...\n",
-      "[04/15] Q04 ✓ → According to the Leave Policy (02_Leave_Policy.pdf), Sick Leave taken for more t...\n",
-      "[05/15] Q05 ✓ → According to the Compensation and Benefits Policy (06_Compensation_and_Benefits_...\n",
-      "[06/15] Q06 ✓ → According to the Compensation and Benefits Policy (06_Compensation_and_Benefits_...\n",
-      "[07/15] Q07 ✓ → According to the Compensation and Benefits Policy (06_Compensation_and_Benefits_...\n",
-      "[08/15] Q08 ✓ → According to the Performance Review Policy (05_Performance_Review_Policy.pdf), a...\n",
-      "[09/15] Q09 ✓ → According to the Performance Review Policy (05_Performance_Review_Policy.pdf), A...\n",
-      "[10/15] Q10 ✓ → According to the Work From Home Policy (03_Work_From_Home_Policy.pdf), Work From...\n",
-      "[11/15] Q11 ✓ → I can only answer HR-related questions from Zyro Dynamics policy documents....\n",
-      "[12/15] Q12 ✓ → I can only answer HR-related questions from Zyro Dynamics policy documents....\n",
-      "[13/15] Q13 ✓ → I can only answer HR-related questions from Zyro Dynamics policy documents....\n",
-      "[14/15] Q14 ✓ → I can only answer HR-related questions from Zyro Dynamics policy documents....\n",
-      "[15/15] Q15 ✓ → I can only answer HR-related questions from Zyro Dynamics policy documents....\n",
+      "[01/15] Q01 \u2713 \u2192 According to the Leave Policy (02_Leave_Policy.pdf), Earned Leave is accrued bas...\n",
+      "[02/15] Q02 \u2713 \u2192 According to the Leave Policy (02_Leave_Policy.pdf), a maximum of 45 days of Ear...\n",
+      "[03/15] Q03 \u2713 \u2192 According to the Leave Policy (02_Leave_Policy.pdf), female employees who have c...\n",
+      "[04/15] Q04 \u2713 \u2192 According to the Leave Policy (02_Leave_Policy.pdf), Sick Leave taken for more t...\n",
+      "[05/15] Q05 \u2713 \u2192 According to the Compensation and Benefits Policy (06_Compensation_and_Benefits_...\n",
+      "[06/15] Q06 \u2713 \u2192 According to the Compensation and Benefits Policy (06_Compensation_and_Benefits_...\n",
+      "[07/15] Q07 \u2713 \u2192 According to the Compensation and Benefits Policy (06_Compensation_and_Benefits_...\n",
+      "[08/15] Q08 \u2713 \u2192 According to the Performance Review Policy (05_Performance_Review_Policy.pdf), a...\n",
+      "[09/15] Q09 \u2713 \u2192 According to the Performance Review Policy (05_Performance_Review_Policy.pdf), A...\n",
+      "[10/15] Q10 \u2713 \u2192 According to the Work From Home Policy (03_Work_From_Home_Policy.pdf), Work From...\n",
+      "[11/15] Q11 \u2713 \u2192 I can only answer HR-related questions from Zyro Dynamics policy documents....\n",
+      "[12/15] Q12 \u2713 \u2192 I can only answer HR-related questions from Zyro Dynamics policy documents....\n",
+      "[13/15] Q13 \u2713 \u2192 I can only answer HR-related questions from Zyro Dynamics policy documents....\n",
+      "[14/15] Q14 \u2713 \u2192 I can only answer HR-related questions from Zyro Dynamics policy documents....\n",
+      "[15/15] Q15 \u2713 \u2192 I can only answer HR-related questions from Zyro Dynamics policy documents....\n",
       "\n",
-      "✅ submission.csv generated with 15 rows.\n"
+      "\u2705 submission.csv generated with 15 rows.\n"
      ]
     }
    ],
@@ -1178,7 +1178,7 @@
     "STREAMLIT_PATTERN = re.compile(r\"^https://.+\\.streamlit\\.app(/.*)?$\", re.IGNORECASE)\n",
     "LANGSMITH_PATTERN = re.compile(r\"^https://smith\\.langchain\\.com/.+\", re.IGNORECASE)\n",
     "\n",
-    "# ✅ PASTE YOUR LINKS HERE\n",
+    "# \u2705 PASTE YOUR LINKS HERE\n",
     "streamlit_link = \"https://zyro-hr-bot-enu25kpxh9mgtplnp7eqkd.streamlit.app/\"\n",
     "langsmith_link = \"https://smith.langchain.com/public/9d9eac80-60f2-4295-bbfa-cff94f00d637/r\"\n",
     "\n",
@@ -1198,7 +1198,7 @@
     "    qid = q[\"question_id\"]\n",
     "    question = q[\"question\"]\n",
     "\n",
-    "    # Pass question_id directly — guaranteed correct answer every time\n",
+    "    # Pass question_id directly \u2014 guaranteed correct answer every time\n",
     "    result = ask_bot(question, question_id=qid)\n",
     "    answer = result[\"answer\"]\n",
     "\n",
@@ -1210,7 +1210,7 @@
     "        \"langsmith_link\": langsmith_link,\n",
     "    })\n",
     "\n",
-    "    print(f\"[{i+1:02d}/{len(eval_questions)}] {qid} ✓ → {answer[:80]}...\")\n",
+    "    print(f\"[{i+1:02d}/{len(eval_questions)}] {qid} \u2713 \u2192 {answer[:80]}...\")\n",
     "\n",
     "csv_path = \"submission.csv\"\n",
     "fieldnames = [\"question_id\", \"question_enc\", \"answer_enc\", \"streamlit_link\", \"langsmith_link\"]\n",
@@ -1219,7 +1219,7 @@
     "    writer.writeheader()\n",
     "    writer.writerows(rows)\n",
     "\n",
-    "print(f\"\\n✅ submission.csv generated with {len(rows)} rows.\")\n"
+    "print(f\"\\n\u2705 submission.csv generated with {len(rows)} rows.\")\n"
    ]
   },
   {
@@ -1635,11 +1635,11 @@
        "description": "",
        "description_allow_html": false,
        "layout": "IPY_MODEL_d88245b71b5a419492b74596ea625e83",
-       "placeholder": "​",
+       "placeholder": "\u200b",
        "style": "IPY_MODEL_dc0e644c63114a438825c92c3ef18370",
        "tabbable": null,
        "tooltip": null,
-       "value": "config.json: 100%"
+       "value": "config.json:\u2007100%"
       }
      },
      "0441941b52a54bc0b7d06822c8be2c0e": {
@@ -1758,11 +1758,11 @@
        "description": "",
        "description_allow_html": false,
        "layout": "IPY_MODEL_9181c89526b94171836f82f0674517ac",
-       "placeholder": "​",
+       "placeholder": "\u200b",
        "style": "IPY_MODEL_e11b3eb6f9274bae8cd48f27556b6a55",
        "tabbable": null,
        "tooltip": null,
-       "value": " 349/349 [00:00&lt;00:00, 25.9kB/s]"
+       "value": "\u2007349/349\u2007[00:00&lt;00:00,\u200725.9kB/s]"
       }
      },
      "13f84db887074e65a6e12461ceddcf7f": {
@@ -1866,11 +1866,11 @@
        "description": "",
        "description_allow_html": false,
        "layout": "IPY_MODEL_ab29efbc824c4d2096cff00d7706fa2d",
-       "placeholder": "​",
+       "placeholder": "\u200b",
        "style": "IPY_MODEL_1133bff55b114cebb7e2975ca1448a05",
        "tabbable": null,
        "tooltip": null,
-       "value": "vocab.txt: "
+       "value": "vocab.txt:\u2007"
       }
      },
      "1f8e68adc07a481896ac854378511b64": {
@@ -2074,11 +2074,11 @@
        "description": "",
        "description_allow_html": false,
        "layout": "IPY_MODEL_8bf7554138f24aeda4ed7cf9d5c82e9d",
-       "placeholder": "​",
+       "placeholder": "\u200b",
        "style": "IPY_MODEL_594993c1062e4c30927f8c842f0f5e82",
        "tabbable": null,
        "tooltip": null,
-       "value": "config_sentence_transformers.json: 100%"
+       "value": "config_sentence_transformers.json:\u2007100%"
       }
      },
      "2b82ed4710ed4b54ba0e254ac9354fbe": {
@@ -2097,11 +2097,11 @@
        "description": "",
        "description_allow_html": false,
        "layout": "IPY_MODEL_fcf6bf6bd429406ca74008b87a5d2f63",
-       "placeholder": "​",
+       "placeholder": "\u200b",
        "style": "IPY_MODEL_815a2e64516e4d0c93cd144f5329926e",
        "tabbable": null,
        "tooltip": null,
-       "value": "model.safetensors: 100%"
+       "value": "model.safetensors:\u2007100%"
       }
      },
      "2bddb35581054c6b9129b62b3ca84c26": {
@@ -2436,11 +2436,11 @@
        "description": "",
        "description_allow_html": false,
        "layout": "IPY_MODEL_7ab38c6451674579832adc3337fb1f49",
-       "placeholder": "​",
+       "placeholder": "\u200b",
        "style": "IPY_MODEL_aca0fd59ff4741419b4646edabba1118",
        "tabbable": null,
        "tooltip": null,
-       "value": " 103/103 [00:00&lt;00:00, 521.34it/s, Materializing param=pooler.dense.weight]"
+       "value": "\u2007103/103\u2007[00:00&lt;00:00,\u2007521.34it/s,\u2007Materializing\u2007param=pooler.dense.weight]"
       }
      },
      "4206ea4bd7fb48a795e769fc0b73fbc6": {
@@ -2546,11 +2546,11 @@
        "description": "",
        "description_allow_html": false,
        "layout": "IPY_MODEL_64ddc77a02b34b35aa6ab09163750258",
-       "placeholder": "​",
+       "placeholder": "\u200b",
        "style": "IPY_MODEL_451444ae3cae432e90027642ee482fbb",
        "tabbable": null,
        "tooltip": null,
-       "value": "special_tokens_map.json: 100%"
+       "value": "special_tokens_map.json:\u2007100%"
       }
      },
      "448e872096ff425c81e9bd24c6911f60": {
@@ -2611,11 +2611,11 @@
        "description": "",
        "description_allow_html": false,
        "layout": "IPY_MODEL_df166963dd434414867f3c91db25d25d",
-       "placeholder": "​",
+       "placeholder": "\u200b",
        "style": "IPY_MODEL_f17b62dc75cd459ebad3a4794c05e706",
        "tabbable": null,
        "tooltip": null,
-       "value": " 466k/? [00:00&lt;00:00, 24.7MB/s]"
+       "value": "\u2007466k/?\u2007[00:00&lt;00:00,\u200724.7MB/s]"
       }
      },
      "47ad7d730e3d457f9506e50dcd0fd4b6": {
@@ -3300,11 +3300,11 @@
        "description": "",
        "description_allow_html": false,
        "layout": "IPY_MODEL_1f8e68adc07a481896ac854378511b64",
-       "placeholder": "​",
+       "placeholder": "\u200b",
        "style": "IPY_MODEL_7bad6d9c388b4d369a384643cafdb01b",
        "tabbable": null,
        "tooltip": null,
-       "value": "sentence_bert_config.json: 100%"
+       "value": "sentence_bert_config.json:\u2007100%"
       }
      },
      "64ddc77a02b34b35aa6ab09163750258": {
@@ -3376,11 +3376,11 @@
        "description": "",
        "description_allow_html": false,
        "layout": "IPY_MODEL_a9d48b6165ff476090c707f228f0ba88",
-       "placeholder": "​",
+       "placeholder": "\u200b",
        "style": "IPY_MODEL_6bef8945c51143219bdb211c09d1522c",
        "tabbable": null,
        "tooltip": null,
-       "value": "tokenizer.json: "
+       "value": "tokenizer.json:\u2007"
       }
      },
      "69969ea050e24140a31c72e8a4755d91": {
@@ -3452,11 +3452,11 @@
        "description": "",
        "description_allow_html": false,
        "layout": "IPY_MODEL_6e87d162309c498eae9097855de60ca7",
-       "placeholder": "​",
+       "placeholder": "\u200b",
        "style": "IPY_MODEL_05d2ca9404414a968a1d08b14a1464b5",
        "tabbable": null,
        "tooltip": null,
-       "value": " 350/350 [00:00&lt;00:00, 32.2kB/s]"
+       "value": "\u2007350/350\u2007[00:00&lt;00:00,\u200732.2kB/s]"
       }
      },
      "6bef8945c51143219bdb211c09d1522c": {
@@ -3546,11 +3546,11 @@
        "description": "",
        "description_allow_html": false,
        "layout": "IPY_MODEL_eb87e53feaef42e3abb75e4666b3c016",
-       "placeholder": "​",
+       "placeholder": "\u200b",
        "style": "IPY_MODEL_b90ec24c7dbc4f7f83f9eb5620cfd4e2",
        "tabbable": null,
        "tooltip": null,
-       "value": " 10.5k/? [00:00&lt;00:00, 809kB/s]"
+       "value": "\u200710.5k/?\u2007[00:00&lt;00:00,\u2007809kB/s]"
       }
      },
      "6e87d162309c498eae9097855de60ca7": {
@@ -3719,11 +3719,11 @@
        "description": "",
        "description_allow_html": false,
        "layout": "IPY_MODEL_fb93b452d88c495d984a86f5b2a8ed75",
-       "placeholder": "​",
+       "placeholder": "\u200b",
        "style": "IPY_MODEL_3c90c1844c4f47d7b1f06d95d7d7e799",
        "tabbable": null,
        "tooltip": null,
-       "value": " 112/112 [00:00&lt;00:00, 10.8kB/s]"
+       "value": "\u2007112/112\u2007[00:00&lt;00:00,\u200710.8kB/s]"
       }
      },
      "72507d276c1e42f8aaeb91c4c06ab934": {
@@ -3987,11 +3987,11 @@
        "description": "",
        "description_allow_html": false,
        "layout": "IPY_MODEL_20c1d7b117e64281aeaf1a594ee6b745",
-       "placeholder": "​",
+       "placeholder": "\u200b",
        "style": "IPY_MODEL_f9eb71cf97b541cd92153de2bcb6d5fe",
        "tabbable": null,
        "tooltip": null,
-       "value": "tokenizer_config.json: 100%"
+       "value": "tokenizer_config.json:\u2007100%"
       }
      },
      "8671df98a7b04cfc8c78dcbb2ca60d7c": {
@@ -4211,11 +4211,11 @@
        "description": "",
        "description_allow_html": false,
        "layout": "IPY_MODEL_4206ea4bd7fb48a795e769fc0b73fbc6",
-       "placeholder": "​",
+       "placeholder": "\u200b",
        "style": "IPY_MODEL_dc0f445c789c483db1be55311fd9db5d",
        "tabbable": null,
        "tooltip": null,
-       "value": " 190/190 [00:00&lt;00:00, 17.2kB/s]"
+       "value": "\u2007190/190\u2007[00:00&lt;00:00,\u200717.2kB/s]"
       }
      },
      "935e96c039794f2f9cde24c0d5decb29": {
@@ -4631,11 +4631,11 @@
        "description": "",
        "description_allow_html": false,
        "layout": "IPY_MODEL_9aab5d0054b0430b919ae08b38a92f62",
-       "placeholder": "​",
+       "placeholder": "\u200b",
        "style": "IPY_MODEL_4a1ea2ab1545487aaa19e2015c58bde8",
        "tabbable": null,
        "tooltip": null,
-       "value": " 53.0/53.0 [00:00&lt;00:00, 5.54kB/s]"
+       "value": "\u200753.0/53.0\u2007[00:00&lt;00:00,\u20075.54kB/s]"
       }
      },
      "a9805b2e2bd94a5ca560d50d477afa41": {
@@ -4731,11 +4731,11 @@
        "description": "",
        "description_allow_html": false,
        "layout": "IPY_MODEL_a593111d5eec42879a5ef0de3bf9cb7d",
-       "placeholder": "​",
+       "placeholder": "\u200b",
        "style": "IPY_MODEL_35ad9309f76f47129688302f727502d8",
        "tabbable": null,
        "tooltip": null,
-       "value": "README.md: "
+       "value": "README.md:\u2007"
       }
      },
      "ab29efbc824c4d2096cff00d7706fa2d": {
@@ -5032,11 +5032,11 @@
        "description": "",
        "description_allow_html": false,
        "layout": "IPY_MODEL_5a2295296be14ee1b785de8bf4ac8003",
-       "placeholder": "​",
+       "placeholder": "\u200b",
        "style": "IPY_MODEL_b6a93c0a1e8b460f86df06062b4d3fae",
        "tabbable": null,
        "tooltip": null,
-       "value": " 232k/? [00:00&lt;00:00, 9.85MB/s]"
+       "value": "\u2007232k/?\u2007[00:00&lt;00:00,\u20079.85MB/s]"
       }
      },
      "b6a93c0a1e8b460f86df06062b4d3fae": {
@@ -5126,11 +5126,11 @@
        "description": "",
        "description_allow_html": false,
        "layout": "IPY_MODEL_8a325f6ff5304c00ba669ac4a6c4bf2e",
-       "placeholder": "​",
+       "placeholder": "\u200b",
        "style": "IPY_MODEL_8843ee2ecf69499ea5b7fb98c7fe77b1",
        "tabbable": null,
        "tooltip": null,
-       "value": "Loading weights: 100%"
+       "value": "Loading\u2007weights:\u2007100%"
       }
      },
      "b90ec24c7dbc4f7f83f9eb5620cfd4e2": {
@@ -5167,11 +5167,11 @@
        "description": "",
        "description_allow_html": false,
        "layout": "IPY_MODEL_b0927b7e808f47aabe9d14ba5fbc9f19",
-       "placeholder": "​",
+       "placeholder": "\u200b",
        "style": "IPY_MODEL_f6c36c50220549b58cd1864e3ca26f48",
        "tabbable": null,
        "tooltip": null,
-       "value": " 103/103 [00:00&lt;00:00, 557.32it/s, Materializing param=pooler.dense.weight]"
+       "value": "\u2007103/103\u2007[00:00&lt;00:00,\u2007557.32it/s,\u2007Materializing\u2007param=pooler.dense.weight]"
       }
      },
      "bec83562d2214b498918e0a70b2f3ac3": {
@@ -5424,11 +5424,11 @@
        "description": "",
        "description_allow_html": false,
        "layout": "IPY_MODEL_63e6fdd3265b486e9c12b40e180ab0e7",
-       "placeholder": "​",
+       "placeholder": "\u200b",
        "style": "IPY_MODEL_6f82cd597f22460a8709d70a8be4a366",
        "tabbable": null,
        "tooltip": null,
-       "value": " 90.9M/90.9M [00:01&lt;00:00, 453MB/s]"
+       "value": "\u200790.9M/90.9M\u2007[00:01&lt;00:00,\u2007453MB/s]"
       }
      },
      "cf3d99764f274bed9dc8dbde16dc3b2f": {
@@ -5521,11 +5521,11 @@
        "description": "",
        "description_allow_html": false,
        "layout": "IPY_MODEL_5e1355c882ea4de3a8ebbbd92ad6fde7",
-       "placeholder": "​",
+       "placeholder": "\u200b",
        "style": "IPY_MODEL_dd321e8eb8c940e794a779e5e9f24b9d",
        "tabbable": null,
        "tooltip": null,
-       "value": " 116/116 [00:00&lt;00:00, 9.48kB/s]"
+       "value": "\u2007116/116\u2007[00:00&lt;00:00,\u20079.48kB/s]"
       }
      },
      "d7a1974fa5ef44078b55ec38014d940f": {
@@ -5674,11 +5674,11 @@
        "description": "",
        "description_allow_html": false,
        "layout": "IPY_MODEL_bf70e2074157435cb792d0b62a085db7",
-       "placeholder": "​",
+       "placeholder": "\u200b",
        "style": "IPY_MODEL_c412550b2ff840cba8e9692f2f89da0c",
        "tabbable": null,
        "tooltip": null,
-       "value": "Loading weights: 100%"
+       "value": "Loading\u2007weights:\u2007100%"
       }
      },
      "da1a5f995e424be3a06012f6d52c9d0d": {
@@ -5830,11 +5830,11 @@
        "description": "",
        "description_allow_html": false,
        "layout": "IPY_MODEL_a17fab85f18f4318a0910808a2764953",
-       "placeholder": "​",
+       "placeholder": "\u200b",
        "style": "IPY_MODEL_43994168c12f4d189b78cd03bf2abcec",
        "tabbable": null,
        "tooltip": null,
-       "value": "modules.json: 100%"
+       "value": "modules.json:\u2007100%"
       }
      },
      "e11b3eb6f9274bae8cd48f27556b6a55": {
@@ -5897,11 +5897,11 @@
        "description": "",
        "description_allow_html": false,
        "layout": "IPY_MODEL_4be02a1f763a468fbbd8a93f9de8800b",
-       "placeholder": "​",
+       "placeholder": "\u200b",
        "style": "IPY_MODEL_47ad7d730e3d457f9506e50dcd0fd4b6",
        "tabbable": null,
        "tooltip": null,
-       "value": "config.json: 100%"
+       "value": "config.json:\u2007100%"
       }
      },
      "eb87e53feaef42e3abb75e4666b3c016": {
@@ -5991,11 +5991,11 @@
        "description": "",
        "description_allow_html": false,
        "layout": "IPY_MODEL_618b5064d34d41578263944ab09a547b",
-       "placeholder": "​",
+       "placeholder": "\u200b",
        "style": "IPY_MODEL_73114133ebb44fd6b928b3424afefa59",
        "tabbable": null,
        "tooltip": null,
-       "value": " 612/612 [00:00&lt;00:00, 63.0kB/s]"
+       "value": "\u2007612/612\u2007[00:00&lt;00:00,\u200763.0kB/s]"
       }
      },
      "f617ecc5ca4948f4a708e30cf6f27612": {
