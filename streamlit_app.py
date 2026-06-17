@@ -159,37 +159,6 @@ with st.sidebar:
     </div>
     """, unsafe_allow_html=True)
 
-# Optimal cached answers for evaluation questions to ensure perfect leaderboard similarity
-ANSWERS_LOOKUP = {
-    "q01": "According to the Leave Policy (02_Leave_Policy.pdf), Earned Leave is accrued based on the length of continuous service. Employees become eligible for 15 days of Earned Leave upon completion of one year of continuous service, provided they have worked for a minimum of 240 days in that year. Thereafter, Earned Leave accrues at the rate of 1.25 days per month. Employees in their probation period accrue EL at 0.5 days per month, which becomes available for use only after probation confirmation.",
-    
-    "q02": "According to the Leave Policy (02_Leave_Policy.pdf), a maximum of 45 days of Earned Leave may be carried forward at the end of each financial year (31 March). Any balance exceeding this limit will be automatically encashed at the employee\'s basic daily rate and credited in the April payroll.",
-    
-    "q03": "According to the Leave Policy (02_Leave_Policy.pdf), female employees who have completed a minimum of 80 days of service in the 12 months preceding the expected date of delivery are entitled to 26 weeks of paid Maternity Leave, in accordance with the Maternity Benefit (Amendment) Act, 2017. This entitlement applies to the first two live births. For a third child, the entitlement is 12 weeks. Up to 8 weeks of pre-natal leave may be availed prior to the expected delivery date. Provisions for surrogacy and adoption are handled on a case-by-case basis. Please contact the HR team for details.",
-    
-    "q04": "According to the Leave Policy (02_Leave_Policy.pdf), Sick Leave taken for more than 2 consecutive days requires a Medical Certificate from a registered medical practitioner, to be submitted within 3 working days of returning to work.",
-    
-    "q05": "According to the Compensation and Benefits Policy (06_Compensation_and_Benefits_Policy.pdf), salaries and professional fees are processed and credited to the employee\'s registered bank account by the 7th of the following month. Any changes to payment dates for a given month will be communicated to employees in advance by the Payroll team. The payroll cut-off date is the 24th of each month. Any leave without pay, new joinings, or separations after the 24th will be adjusted in the subsequent month\'s payroll cycle. New employees joining after the 24th will still receive their salary for that month on the standard payday, with the salary calculated on a pro-rata basis.",
-    
-    "q06": "According to the Compensation and Benefits Policy (06_Compensation_and_Benefits_Policy.pdf), L4 Senior CTC Range (INR per annum) Rs. 16.0L to Rs. 26.0L Bonus Target 10% of CTC",
-    
-    "q07": "According to the Compensation and Benefits Policy (06_Compensation_and_Benefits_Policy.pdf), Group Medical Insurance: Coverage of up to Rs. 5,00,000 per year for the employee, spouse, and up to two dependent children. All premiums are fully paid by the Company.",
-    
-    "q08": "According to the Performance Review Policy (05_Performance_Review_Policy.pdf), an employee who receives a rating of 1 or 2 in two consecutive review cycles will be placed on a formal Performance Improvement Plan. Duration: 60 to 90 days, as determined by the reporting manager and HR Business Partner. At the start of the PIP, specific, measurable, and time-bound improvement targets are agreed and documented. Weekly check-in meetings between the employee and the manager are mandatory throughout the PIP period.",
-    
-    "q09": "According to the Performance Review Policy (05_Performance_Review_Policy.pdf), Annual Performance Review (APR) Timeline: Stage 1: 360 degree feedback collected from peers and subordinates (1 to 20 February) Stage 2: Employee self-assessment submitted on ZyroHR portal (1 to 10 March) Stage 3: Manager completes assessment and submits draft rating (11 to 20 March) Stage 4: Calibration meeting held with all L6 and above managers (21 to 25 March) Stage 5: Final ratings locked and confirmed by HR (26 to 31 March) Stage 6: One-on-one feedback conversation between employee and manager (1 to 10 April) Stage 7: Increment and promotion letters issued (15 April).",
-    
-    "q10": "According to the Work From Home Policy (03_Work_From_Home_Policy.pdf), Work From Home Policy applicability: This policy applies to all permanent employees at grade L3 and above across all Zyro Dynamics office locations. Employees on probation, employees at grades L1 and L2, and employees deployed at client sites are not eligible for WFH arrangements unless approved in writing by the HR Director on a case-by-case basis. Types of WFH arrangements: Hybrid WFH (fixed WFH days, L3 and above, max 3 days/week), Full Remote (L5 and above case-by-case, max 5 days/week), Ad-hoc WFH (L3 and above, max 2 days/week), Emergency WFH (all employees, as directed by HR). Minimum 6 months of service, meets expectations or above rating, no active PIP, reliable 25 Mbps internet and distraction-free workspace.",
-    
-    "q11": "I can only answer HR-related questions from Zyro Dynamics policy documents.",
-    
-    "q12": "I can only answer HR-related questions from Zyro Dynamics policy documents.",
-    
-    "q13": "I can only answer HR-related questions from Zyro Dynamics policy documents.",
-    "q14": "I can only answer HR-related questions from Zyro Dynamics policy documents.",
-    "q15": "I can only answer HR-related questions from Zyro Dynamics policy documents."
-}
-
 # Load the dynamic RAG pipeline
 @st.cache_resource
 def build_rag_pipeline(g_key, l_key):
@@ -240,8 +209,9 @@ def build_rag_pipeline(g_key, l_key):
 
 Instructions:
 1. Answer the question using ONLY the provided context. Do NOT use any outside knowledge or make assumptions.
-2. If the context does not contain the answer, or if the question cannot be FULLY answered based on the provided context, you MUST gracefully refuse by saying exactly: "I can only answer HR-related questions from Zyro Dynamics policy documents."
-3. Always include the source document name in your answer if you find the answer (e.g. "According to the Leave Policy (02_Leave_Policy.pdf)...").
+2. If the context does not contain the answer, or if the question cannot be FULLY and completely answered based on the provided context, you MUST gracefully refuse by saying exactly: "I can only answer HR-related questions from Zyro Dynamics policy documents."
+3. Do NOT provide any partial answers or explanations of what is missing. If any part of the question cannot be answered from the context, output only the refusal message.
+4. When you find the answer in the context, always include the source document name (e.g. "According to the Leave Policy (02_Leave_Policy.pdf)...").
 
 Context:
 {context}
@@ -259,49 +229,13 @@ Answer:"""
 
 # Chat logic
 def ask_bot(question: str, rag_chain):
-    q_lower = question.lower().strip()
-    
-    # 1. Deterministic evaluation question mapping
-    if "accrue per month" in q_lower and "one year" in q_lower:
-        return ANSWERS_LOOKUP["q01"]
-    elif "carried forward" in q_lower and "excess balance" in q_lower:
-        return ANSWERS_LOOKUP["q02"]
-    elif "maternity leave" in q_lower and "minimum service requirement" in q_lower:
-        return ANSWERS_LOOKUP["q03"]
-    elif "sick leave" in q_lower and "2 consecutive days" in q_lower:
-        return ANSWERS_LOOKUP["q04"]
-    elif "salary credited" in q_lower and "cut-off date" in q_lower:
-        return ANSWERS_LOOKUP["q05"]
-    elif "ctc range" in q_lower and "l4" in q_lower:
-        return ANSWERS_LOOKUP["q06"]
-    elif "health insurance" in q_lower or ("medical insurance" in q_lower and "covers" in q_lower and "premium" in q_lower):
-        if "zoho" not in q_lower:
-            return ANSWERS_LOOKUP["q07"]
-    elif "improvement plan" in q_lower or "pip" in q_lower:
-        return ANSWERS_LOOKUP["q08"]
-    elif "timeline" in q_lower and "increment and promotion" in q_lower:
-        return ANSWERS_LOOKUP["q09"]
-    elif "eligible to work from home" in q_lower or ("eligible" in q_lower and "wfh" in q_lower) or ("eligible to work" in q_lower and "home" in q_lower):
-        return ANSWERS_LOOKUP["q10"]
-    elif "recruitment" in q_lower or "apply for a job" in q_lower:
-        return ANSWERS_LOOKUP["q11"]
-    elif "esop" in q_lower or "stock option" in q_lower:
-        return ANSWERS_LOOKUP["q12"]
-    elif "revenue last year" in q_lower or "performing financially" in q_lower:
-        return ANSWERS_LOOKUP["q13"]
-    elif "acruxcrm" in q_lower or "salesforce" in q_lower:
-        return ANSWERS_LOOKUP["q14"]
-    elif "zoho" in q_lower or "freshworks" in q_lower:
-        return ANSWERS_LOOKUP["q15"]
-        
-    # 2. Dynamic RAG chain fallback
     if rag_chain:
         try:
             return rag_chain.invoke(question)
         except Exception as e:
             return f"Error executing RAG chain: {e}"
     else:
-        return "Groq API Key is required to answer new/custom questions dynamically."
+        return "Groq API Key is required to answer questions dynamically."
 
 # Initialize Session State for message history
 if "messages" not in st.session_state:
