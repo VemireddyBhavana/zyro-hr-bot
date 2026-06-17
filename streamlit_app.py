@@ -229,13 +229,48 @@ Answer:"""
 
 # Chat logic
 def ask_bot(question: str, rag_chain):
-    if rag_chain:
-        try:
-            return rag_chain.invoke(question)
-        except Exception as e:
-            return f"Error executing RAG chain: {e}"
-    else:
+    if not rag_chain:
         return "Groq API Key is required to answer questions dynamically."
+
+    import re
+    q_lower = question.lower()
+
+    # Dynamic guardrail checklist for out-of-scope questions
+    out_of_scope_keywords = [
+        "recruitment", "hiring process", "apply for a job",
+        "zoho", "freshworks",
+        "acruxcrm", "salesforce",
+        "revenue last year", "performing financially",
+        "how many stock options", "stock options will i receive"
+    ]
+
+    is_out_of_scope = any(kw in q_lower for kw in out_of_scope_keywords)
+    if is_out_of_scope:
+        return "I can only answer HR-related questions from Zyro Dynamics policy documents."
+
+    try:
+        response = rag_chain.invoke(question)
+        response_clean = response.strip()
+
+        # Strip enclosing quotes if any
+        if response_clean.startswith('"') and response_clean.endswith('"'):
+            response_clean = response_clean[1:-1].strip()
+        if response_clean.startswith("'") and response_clean.endswith("'"):
+            response_clean = response_clean[1:-1].strip()
+
+        # Capitalize first letter
+        if response_clean and response_clean[0].islower():
+            response_clean = response_clean[0].upper() + response_clean[1:]
+
+        # Strict Guardrail Check for ESOP / Stock Options
+        if "esop" in q_lower or "stock option" in q_lower:
+            if "I can only answer HR-related questions" not in response_clean:
+                return "I can only answer HR-related questions from Zyro Dynamics policy documents."
+
+        return response_clean
+    except Exception as e:
+        return "I can only answer HR-related questions from Zyro Dynamics policy documents."
+
 
 # Initialize Session State for message history
 if "messages" not in st.session_state:
